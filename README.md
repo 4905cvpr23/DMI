@@ -28,3 +28,11 @@ ${DATASET_DIR}
           |-- ${INDEX}
           |-- ${SHAPE}
 ```
+### Start Train
+```
+python main.py --cfg config/solver/DMI.yaml --log config/logging.yaml
+```
+### Start Test
+```
+python main.py --cfg config/solver/baseline.yaml --log config/logging.yaml --resume ${CHECKPOINT}
+```
