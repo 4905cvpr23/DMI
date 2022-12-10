@@ -11,7 +11,7 @@ conda activate DMI
 pip install -r requirements.txt
 ```
 ### Data Preparation
-1. Request dataset here: https://svdbase.github.io/
+1. Request dataset here: svd[https://svdbase.github.io/]
 2. Create a folder ${DATASET_DIR} to store the features. The directory structure should look like this:
 ```
 ${DATASET_DIR}
