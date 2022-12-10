@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 ### Data Preparation
 1. Request dataset here: https://svdbase.github.io/
-2. Create a folder ${DATASET_DIR} to store the features.The directory structure should look like this:
+2. Create a folder ${DATASET_DIR} to store the features. The directory structure should look like this:
 ```
 ${DATASET_DIR}
 	|--${QUERY}
@@ -28,7 +28,7 @@ ${DATASET_DIR}
           |-- ${INDEX}
           |-- ${SHAPE}
 ```
-### Start Train
+### Start Training
 ```
 python main.py --cfg config/solver/DMI.yaml --log config/logging.yaml
 ```
